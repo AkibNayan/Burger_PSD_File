@@ -28,7 +28,7 @@ header section css file
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 120vh;
+    height: 140vh;
 }
 .nav-bar{
 	width: 100%;
@@ -66,7 +66,8 @@ header section css file
 .menu-list ul li a{
 	font-family: 'Bebas Neue', cursive;
     color: #3d2514;
-    font-size: 32px;
+    font-size: 21px;
+    letter-spacing: 4px;
     font-weight: 700;
 }
 /**************************
@@ -92,12 +93,14 @@ banner section css file
     font-weight: 400;
     text-transform: uppercase;
     font-size: 98px;
+    text-shadow: 3px 3px #fee8bb;
 }
 .banner h2{
 	font-family: 'Alfa Slab One', cursive;
     font-weight: 400;
     text-transform: uppercase;
     font-size: 49px;
+    text-shadow: 3px 3px #fee8bb;
 }
 /**************************
 burger catagory section css file
@@ -188,8 +191,9 @@ burger catagory desc css file
 	font-family: 'Bebas Neue', cursive;
     font-weight: 700;
     background-color: #ffc045;
-    padding: 8px 20px;
-    letter-spacing: 1px;
+    padding: 10px 23px;
+    letter-spacing: 2px;
+    border: none;
 }
 .catagory-desc h1{
 	font-family: 'Alfa Slab One', cursive;
@@ -233,7 +237,10 @@ burger gallery section css file
 	font-weight: 400;
 	background-color: #bf2222;	
 	color: #f6e2e2;
-	padding: 5px 30px;
+	padding: 12px 30px;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 .gallery .item1{
 	text-align: center;
@@ -254,7 +261,10 @@ burger gallery section css file
 	font-weight: 400;
 	background-color: #bf2222;	
 	color: #f6e2e2;
-	padding: 5px 30px;
+	padding: 12px 30px;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 /***************************
 burger slider section css file
@@ -266,7 +276,7 @@ burger slider section css file
 	display: flex;
     /* background: gray; */
     padding: 25px 140px;
-    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.3);
+    box-shadow: 5px 5px 5px 3px rgba(0,0,0,0.3);
 
 }
 .slider-desc{
@@ -367,7 +377,7 @@ form field section css file
 }
 .fill-up button{
 	width: 29%;
-	padding: 18px;
+	padding: 21px;
 	margin: 10px 20px;
 	font-family: 'Alfa Slab One', cursive;
 	font-weight: 400;
@@ -394,7 +404,7 @@ footer part css file
 .footer-desc{
 	width: 100%;
 	display: flex;
-    padding: 50px 0px;
+    padding-top: 50px;
 }
 .footer-left{
 
@@ -412,7 +422,6 @@ footer part css file
 	list-style-type: none;
     font-family: 'Bebas Neue', cursive;
     font-weight: 700;
-    padding-right: 100px;
     margin-bottom: 10px;
 }
 .footer-right ul li a i{
@@ -447,7 +456,7 @@ footer part css file
 	padding: 15px 15px;
     margin-right: 36px;
     background: white;
-    border-radius: 25%;
+    border-radius: 50%;
     transition: 0.3s ease-in-out;
 }
 .contact-right ul li a i:hover{
