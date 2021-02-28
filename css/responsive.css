@@ -1,0 +1,254 @@
+
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  .header{
+    width: 117%;
+    height: 68vh;
+  }
+  .banner {
+    height: 28vh;
+  }
+  .menu-contact{
+    margin-right: 47px;
+  }
+  .burger-catagory{
+    width: 117%;
+  }
+  .menu-list ul{
+    margin-right: 47px;
+  }
+  .img-desc1 h3 {
+    font-size: 44px;
+  }
+  .img-desc1 h1{
+    font-size: 50px;
+  }
+  .img-desc2 h3{
+    font-size: 33px;
+  }
+  .img-desc2 h1{
+    font-size: 37px;
+  }
+  .img-desc3 h3{
+    font-size: 33px;
+  }
+  .img-desc3 h1{
+    font-size: 37px;
+  }
+  .catagory-desc button {
+    font-size: 36px;
+  }
+  .catagory-desc h1{
+    font-size: 44px;
+  }
+  .catagory-desc p{
+    padding: 7px 19px;
+    font-size: 30px;
+  }
+/*  order part*/
+  .item h1{
+    font-size: 42px;
+  }
+  .item p{
+    font-size: 25px;
+  }
+  .item button{
+    font-size: 27px;
+  }
+  .item1 h1{
+    font-size: 42px;
+  }
+  .item1 p{
+    font-size: 25px;
+  }
+  .item1 button{
+    font-size: 27px;
+  }
+/*  burger gallery part*/
+.buger-gallery{
+  width: 117%;
+}
+/*  burger slider part*/
+.burger-slider{
+  width: 117%;
+}
+.slider-desc h3{
+  font-size: 32px;
+}
+.slider-desc h1 {
+  font-size: 35px;
+}
+.slider-desc p {
+  font-size: 20px;
+}
+/*sign up part*/
+.table-book{
+    height: 53vh;
+    width: 117%;
+}
+.form-heading h3 {
+  font-size: 32px;
+}
+.form-heading h1{
+  font-size: 36px;
+}
+.input-1{
+  font-size: 32px;
+}
+.input-2{
+  font-size: 32px;
+}
+.input-3 {
+  font-size: 32px;
+}
+.input-4 {
+  font-size: 32px;
+}
+.input-5 {
+  font-size: 32px;
+}
+.fill-up button{
+  font-size: 32px;
+}
+/*footer part*/
+.footer-section{
+    height: 53vh;
+    width: 117%;
+}
+.footer-left p{
+  font-size: 26px;
+}
+.footer-right ul{
+  font-size: 26px;
+}
+.contact-left p{
+  font-size: 26px;
+}
+.contact-right{
+  visibility: visible;
+}
+
+}
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 520px) {
+  
+  /* CSS */
+  .menu-contact {
+    margin-right: 0;
+    font-size: 30px;
+  }
+  .menu-list ul{
+    margin-right: 0px;
+  }
+ .menu-list ul li a {
+    font-size: 42px;
+  }
+  .banner p{
+    font-size: 22px;
+  }
+  .banner h1{
+    font-size: 102px;
+  }
+  .banner h2{
+    font-size: 52px;
+  }
+/*  burger catagory part*/
+  .img-desc2 h3 {
+    font-size: 37px;
+  }
+  .img-desc2 h1{
+    font-size: 41px;
+  }
+  .img-desc3 h3{
+    font-size: 37px;
+  }
+  .img-desc3 h1{
+    font-size: 41px;
+  }
+  .catagory-desc button {
+    font-size: 40px;
+  }
+ /* burger gallery part*/
+  .item p {
+  font-size: 16px;
+  }
+  .item1 p{
+  font-size: 16px;
+  }
+  /*burger slider part*/
+  .slider-desc h3{
+  font-size: 40px;
+  }
+  .slider-desc h1{
+  font-size: 50px;
+  }
+  .slider-desc p{
+  font-size: 26px;
+  }
+  .slider-img{
+  margin-top: 110px;
+  }
+  /*sign up part*/
+  .form-heading h3 {
+  font-size: 52px;
+  }
+  .form-heading h1 {
+  font-size: 64px;
+  }
+  .input-1{
+  font-size: 45px;
+  width: 32%;
+  }
+  .input-2{
+  font-size: 45px;
+  width: 32%;
+  }
+  .input-3{
+  font-size: 45px;
+  width: 32%;
+  }
+  .input-4{
+  font-size: 45px;
+  width: 32%;
+  }
+  .input-5{
+    font-size: 45px;
+    width: 32%;
+  }
+  .fill-up button{
+    width: 36%;
+    font-size: 35px;
+  }
+  /*footer part*/
+  .footer-section{
+    height: 44vh !important;
+  }
+  .footer-left p{
+    font-size: 34px;
+  }
+  .footer-right ul{
+      font-size: 31px;
+      margin-top: 132px;
+  }
+  .contact-left p{
+    font-size: 38px;
+  }
+  .contact-right ul li a i{
+      padding: 25px;
+      margin-right: 40px;
+  }
+
+}

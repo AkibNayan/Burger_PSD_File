@@ -2,20 +2,28 @@
 <html>
 <head>
 	<title>Burger PSD Assignment</title>
-<!-- 	custom css file -->
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+
 <!-- 	google font link -->
-	<link rel="stylesheet" type="text/css" href="<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat&display=swap" rel="stylesheet">
 <!-- 	Font awesome for icon -->
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!-- wow.js file link -->
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+
+
+	<!-- 	custom css file -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- responsive css file -->
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 </head>
 <body>
 <!-- 	header section code start from here -->
 	<div class="header">
 		<div class="container">
 			<div class="nav-bar">
-				<div class="logo">
+				<div class="logo wow slideInLeft">
 					<img src="image/logo.png">
 				</div>
 				<div class="menu">
@@ -23,7 +31,7 @@
 						<img src="image/bike.png">
 						<span>Express Delivery +1 234 567 890</span>
 					</div>
-					<div class="menu-list">
+					<div class="menu-list wow flip">
 						<ul>
 							<li><a href="">Home</a></li>
 							<li><a href="">Menu</a></li>
@@ -34,7 +42,7 @@
 				</div>
 			</div>
 		<!-- 	banner section code start from her -->
-			<div class="banner">
+			<div class="banner wow slideInLeft">
 				<p>It is a good time for the great taste of burgers</p>
 				<h1>Burger</h1>
 				<h2>Week</h2>
@@ -47,14 +55,14 @@
 	<div class="burger-catagory">
 		<div class="container">
 			<div class="catagory">
-				<div class="catagory-left">
+				<div class="catagory-left wow slideInLeft">
 					<img src="image/img-1.png" width="100%">
 					<div class="img-desc1">
 						<h3>Try it today</h3>
 						<h1>Most popular burger</h1>
 					</div>
 				</div>
-				<div class="catagory-right">
+				<div class="catagory-right wow slideInRight">
 					<div class="top-img">
 						<img src="image/img-2.png" width="100%">
 						<div class="img-desc2">
@@ -73,7 +81,7 @@
 				</div>
 			</div>
 			<div class="catagory-desc">
-				<button>Always testy burger</button>
+				<button class="wow rotateIn">Always testy burger</button>
 				<h1>Choose & enjoy</h1>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
 			</div>
@@ -83,7 +91,7 @@
 <!-- burger gallery section code start from here -->
 	<div class="buger-gallery">
 		<div class="container">
-			<div class="gallery">
+			<div class="gallery wow bounceInUp" data-wow-delay="1s"data-wow-duration="2s">
 				<div class="item">
 					<img src="image/img-4.png" width="100%">
 					<h1>Lorem ipsum dolor</h1>
@@ -130,7 +138,7 @@
 					<h3>Reservation</h3>
 					<h1>Book your table</h1>
 				</div>
-				<div class="fill-up">
+				<div class="fill-up wow pulse">
 					<form>
 						<input type="name" name="" placeholder="Name" class="input-1">
 						<input type="email" name="" placeholder="Email" class="input-2">
@@ -140,7 +148,7 @@
 						<br/>
 						<input type="number" name="" placeholder="People" class="input-5">
 						<button type="submit">Find a table</button>
-				</form>
+					</form>
 				</div>
 			</div>
 		</div>
@@ -169,7 +177,7 @@
 				<div class="contact-left">
 					<p>© Company Name 2020. All rights reserved.</p>
 				</div>
-				<div class="contact-right">
+				<div class="contact-right ">
 					<ul>
 						<li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
 						<li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -181,5 +189,12 @@
 		</div>
 	</div>
 <!-- footer part code end from here -->
+
+<!-- wow.js jquery file link -->
+<script src="js/wow.min.js"></script>
+  <script>
+ 	 new WOW().init();
+  </script>
+	
 </body>
 </html>

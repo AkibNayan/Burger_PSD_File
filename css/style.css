@@ -70,6 +70,9 @@ header section css file
     letter-spacing: 4px;
     font-weight: 700;
 }
+.menu-list ul li a:hover{
+	color: gray;
+}
 /**************************
 banner section css file
 **************************/
@@ -195,6 +198,11 @@ burger catagory desc css file
     letter-spacing: 2px;
     border: none;
 }
+
+.catagory-desc button:hover{
+	background: gray;
+	color: white;
+}
 .catagory-desc h1{
 	font-family: 'Alfa Slab One', cursive;
     font-weight: 400;
@@ -242,6 +250,9 @@ burger gallery section css file
     text-transform: uppercase;
     letter-spacing: 1px;
 }
+.item button:hover{
+	background: gray;
+}
 .gallery .item1{
 	text-align: center;
 }
@@ -265,6 +276,9 @@ burger gallery section css file
     border: none;
     text-transform: uppercase;
     letter-spacing: 1px;
+}
+.item1 button:hover{
+	background: gray;
 }
 /***************************
 burger slider section css file
@@ -387,6 +401,9 @@ form field section css file
 	border-radius: 7px;
 	text-transform: uppercase;
     letter-spacing: 3px;
+}
+.fill-up button:hover{
+	background: gray;
 }
 /*************************
 footer part css file
